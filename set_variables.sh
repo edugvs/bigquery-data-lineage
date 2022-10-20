@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export PROJECT_ID="<your-project-id>"
-export TEMP_GCS_BUCKET="<your-gcs-bucket>"
-export REGION_ID="us-central1"
+export PROJECT_ID="dl-project-dev"
+export TEMP_GCS_BUCKET="lineage_gsc_temp"
+export REGION_ID="us"
 export AUDIT_LOGS_PUBSUB_TOPIC="bq-audit-logs"
 export LOG_SINK_ID="bq_audit_logs_to_pubsub"
 export LINEAGE_OUTPUT_PUBSUB_TOPIC="composite-lineage"
